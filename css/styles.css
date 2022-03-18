@@ -1,0 +1,178 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0%;
+  padding: 0%;
+}
+#btnScrollToTop{
+  position: fixed;
+  padding-right: 52px;
+  right: 10px;
+  bottom: 10px;
+  width: 50px;
+  height: 50px;
+  border-radius: 5px;
+  border: none;
+  background-color: rgb(255, 0, 0);
+  /* background-color: rgb(189, 222, 252); */
+  box-shadow: 0 0 5px rgba(0, 0, 0.25);
+  color:#fffffffa;
+  outline: none;
+  cursor: pointer;
+  z-index: 1000;
+}
+
+#btnScrollToTop:active{
+  background: rgba(255, 255, 255, 0.027);
+
+}
+
+nav {
+  background-color: rgba(255, 255, 255, 0.507);
+}
+
+.nav-link {
+  text-decoration: none;
+  color: #000000;
+  font-weight: 500;
+  word-spacing: 1rem;
+  font-size: 150%;
+  font-family: 'Staatliches', cursive;
+}
+
+.nav-link:hover {
+  color: var(--bs-red);
+}
+
+nav button span {
+  font-size: 4rem;
+  
+}
+
+/* #carouselButton {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  z-index: 100; } */
+
+/* .opening-line {
+  min-height: 900px;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgb(50, 58, 69, 0.9)));
+  background-image: linear-gradient(360deg, rgba(50, 58, 69, 0.55), rgba(50, 58, 69, 0.74)),
+    url("../img/roadDrive.jpg");
+  background-size: cover;
+} */
+
+.opening-line p {
+  color: white;
+  font-size: 2rem;
+  word-spacing: .5vw;
+  padding: 100px 0px 0px 50px;
+  font-family: monospace;
+  font-weight: 200;
+  font-family: 'Staatliches', cursive;
+}
+
+.main-content {
+  background: linear-gradient(to bottom, #a2a3754b, #00000018);
+  /* background: linear-gradient(to right, #43cea2a6, #185b9d9d); */
+}
+
+.section-our-Services {
+  padding: 20px;
+  font-size: xx-large;
+  font-weight: 400;
+  margin-bottom: 50px;
+
+}
+
+.ourServices-title {
+  padding: 70px;
+}
+
+.section-our-Services h3 {
+  font-size: 5rem;
+  font-family: 'Staatliches', cursive;
+}
+
+.section-our-Services li {
+  list-style: none;
+}
+.section-our-Services .card{
+  margin: auto;
+  background-color: #eedabc;
+  font-size: small;
+  font-family: Arial, Helvetica, sans-serif ;
+ 
+}
+
+.advertisment {
+  background-color: #ffffff;
+  padding: 10%;
+}
+.advertisment p{
+  color: rgba(0, 0, 0, 0.5);
+  margin: auto;
+  text-align: center;
+  /* padding-top: 30%; */
+  font-family: 'staatliches',Arial, Helvetica, sans-serif;
+  font-size: 4rem;
+}
+.AD{
+ width: 100%;
+}
+.advertisment .Adimg {
+ width: 100%;
+}
+.advertisment .Adimg:hover{
+  color: #000000;
+
+}
+
+.Section-our-location {
+  padding-bottom: 150px;
+}
+.Section-our-location .card{
+  margin: auto;
+}
+.Section-our-location .btn{
+ padding-right: 40%;
+padding-left: 40%;
+}
+
+.ourLocation-title {
+  padding: 50px;
+}
+
+.ourLocation-title h3 {
+  font-size: 5rem;
+  font-family: 'Staatliches', cursive;
+}
+.shop-cards {
+  background-color: #0000000c;
+}
+
+/* .lineBreak{
+  background: #ffffff3b;
+  padding: 80px 0px 0px 80px;
+} */
+.section-contact{
+  background: #ffffff23;
+  padding: 20px;
+  font-size: xx-large;
+  font-weight: 300;
+ 
+  padding-bottom: 70px;
+}
+.contact-title{
+  padding: 50px;
+} 
+.section-contact h3 {
+  font-size: 5rem;
+  font-family: 'Staatliches', cursive;
+}
+.carousel-inner img{
+  padding: 4%;
+} 
